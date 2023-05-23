@@ -1,0 +1,10 @@
+{
+  "brown": ["medAve", "balAve"],
+  "aqua": ["oriAve", "verAve", "conAve"],
+  "pink": ["stcPla", "staAve", "virAve"],
+  "orange": ["stjPla", "tenAve", "newAve"],
+  "red": ["kenAve", "indAve", "illAve"],
+  "yellow": ["atlAve", "venAve", "marGar"],
+  "green": ["pacAve", "norAve", "penAve"],
+  "blue": ["parPla", "boaWlk"]
+}

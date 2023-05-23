@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+body {
+  background-color: #36454f;
+  font-family: "Mate SC", serif;
+}
+.game {
+  display: flex;
+  align-content: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 95px);
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: #ddfbd2;
+}
+.start_board_title {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.start {
+  display: flex;
+  justify-content: space-evenly;
+}
+.players {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+.buttons {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Mate SC", serif;
+}
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  height: 50px;
+  width: 100px;
+  background-color: #2ea043;
+  border-radius: 45%;
+}
+p {
+  margin: 0px;
+}
+.space_1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.space_2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.space_3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.space_4 {
+  grid-column: 4;
+  grid-row: 1;
+}
+.space_5 {
+  grid-column: 5;
+  grid-row: 1;
+}
+.space_6 {
+  grid-column: 6;
+  grid-row: 1;
+}
+.space_7 {
+  grid-column: 7;
+  grid-row: 1;
+}
+.space_8 {
+  grid-column: 8;
+  grid-row: 1;
+}
+.space_9 {
+  grid-column: 9;
+  grid-row: 1;
+}
+.space_10 {
+  grid-column: 10;
+  grid-row: 1;
+}
+.space_11 {
+  grid-column: 11;
+  grid-row: 1;
+}
+.space_12 {
+  grid-column: 11;
+  grid-row: 2;
+}
+.space_13 {
+  grid-column: 11;
+  grid-row: 3;
+}
+.space_14 {
+  grid-column: 11;
+  grid-row: 4;
+}
+.space_15 {
+  grid-column: 11;
+  grid-row: 5;
+}
+.space_16 {
+  grid-column: 11;
+  grid-row: 6;
+}
+.space_17 {
+  grid-column: 11;
+  grid-row: 7;
+}
+.space_18 {
+  grid-column: 11;
+  grid-row: 8;
+}
+.space_19 {
+  grid-column: 11;
+  grid-row: 9;
+}
+.space_20 {
+  grid-column: 11;
+  grid-row: 10;
+}
+.space_21 {
+  grid-column: 11;
+  grid-row: 11;
+}
+.space_22 {
+  grid-column: 10;
+  grid-row: 11;
+}
+.space_23 {
+  grid-column: 9;
+  grid-row: 11;
+}
+.space_24 {
+  grid-column: 8;
+  grid-row: 11;
+}
+.space_25 {
+  grid-column: 7;
+  grid-row: 11;
+}
+.space_26 {
+  grid-column: 6;
+  grid-row: 11;
+}
+.space_27 {
+  grid-column: 5;
+  grid-row: 11;
+}
+.space_28 {
+  grid-column: 4;
+  grid-row: 11;
+}
+.space_29 {
+  grid-column: 3;
+  grid-row: 11;
+}
+.space_30 {
+  grid-column: 2;
+  grid-row: 11;
+}
+.space_31 {
+  grid-column: 1;
+  grid-row: 11;
+}
+.space_32 {
+  grid-column: 1;
+  grid-row: 10;
+}
+.space_33 {
+  grid-column: 1;
+  grid-row: 9;
+}
+.space_34 {
+  grid-column: 1;
+  grid-row: 8;
+}
+.space_35 {
+  grid-column: 1;
+  grid-row: 7;
+}
+.space_36 {
+  grid-column: 1;
+  grid-row: 6;
+}
+.space_37 {
+  grid-column: 1;
+  grid-row: 5;
+}
+.space_38 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.space_39 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.space_40 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.testing_space {
+  grid-column: 8;
+  grid-row: 10;
+}
+@keyframes yellowPlayer {
+  0% {
+    background-color: "aqua";
+  }
+  100% {
+    background-color: "yellow";
+  }
+}
+@keyframes redPlayer {
+  0% {
+    background-color: "yellow";
+  }
+  100% {
+    background-color: "red";
+  }
+}
+@keyframes aquaPlayer {
+  0% {
+    background-color: "orange";
+  }
+  100% {
+    background-color: "aqua";
+  }
+}
+@keyframes orangePlayer {
+  0% {
+    background-color: "red";
+  }
+  100% {
+    background-color: "orange";
+  }
+}

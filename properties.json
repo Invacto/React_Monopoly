@@ -1,0 +1,545 @@
+{
+  "go": {
+    "name": "Go Space",
+    "color": "white",
+    "players": ["justin", "nikita", "owasimul", "charlie"]
+  },
+  "medAve": {
+    "name": "Mediterranean Avenue",
+    "color": "brown",
+    "cost": 60,
+    "buildingCost": 50,
+    "rent": {
+      "0_house": 2,
+      "1_house": 10,
+      "2_house": 30,
+      "3_house": 90,
+      "4_house": 160,
+      "5_house": 250
+    },
+    "mortgage": 30,
+    "unmortgageCost": 33,
+    "isMortgaged": false,
+    "houses": 0,
+    "players": [],
+    "owner": ""
+  },
+  "commChestOne": {
+    "hasImage": true,
+    "name": "Community Chest",
+    "color": "white",
+    "icon": "./src/assets/commChest.jpg",
+    "players": []
+  },
+  "balAve": {
+    "name": "Baltic Avenue",
+    "color": "brown",
+    "cost": 60,
+    "buildingCost": 50,
+    "rent": {
+      "0_house": 4,
+      "1_house": 20,
+      "2_house": 60,
+      "3_house": 180,
+      "4_house": 320,
+      "5_house": 450
+    },
+    "mortgage": 30,
+    "unmortgageCost": 33,
+    "isMortgaged": false,
+    "houses": 0,
+    "players": [],
+    "owner": ""
+  },
+  "incTax": {
+    "hasImage": true,
+    "name": "Income Tax",
+    "color": "white",
+    "players": []
+  },
+  "readingRR": {
+    "hasImage": true,
+    "name": "Reading Railroad",
+    "color": "white",
+    "players": []
+  },
+  "oriAve": {
+    "name": "Oriental Avenue",
+    "color": "aqua",
+    "cost": 100,
+    "buildingCost": 50,
+    "rent": {
+      "0_house": 6,
+      "1_house": 30,
+      "2_house": 90,
+      "3_house": 270,
+      "4_house": 400,
+      "5_house": 550
+    },
+    "mortgage": 50,
+    "unmortgageCost": 55,
+    "isMortgaged": false,
+    "houses": 0,
+    "players": [],
+    "owner": ""
+  },
+  "chanceOne": {
+    "hasImage": true,
+    "name": "Chance",
+    "color": "white",
+    "players": []
+  },
+  "verAve": {
+    "name": "Vermont Avenue",
+    "color": "aqua",
+    "cost": 100,
+    "buildingCost": 50,
+    "rent": {
+      "0_house": 6,
+      "1_house": 30,
+      "2_house": 90,
+      "3_house": 270,
+      "4_house": 400,
+      "5_house": 550
+    },
+    "mortgage": 50,
+    "unmortgageCost": 55,
+    "isMortgaged": false,
+    "houses": 0,
+    "players": [],
+    "owner": ""
+  },
+  "conAve": {
+    "name": "Connecticut Avenue",
+    "color": "aqua",
+    "cost": 120,
+    "buildingCost": 50,
+    "rent": {
+      "0_house": 8,
+      "1_house": 40,
+      "2_house": 100,
+      "3_house": 300,
+      "4_house": 450,
+      "5_house": 600
+    },
+    "mortgage": 60,
+    "unmortgagedCost": 66,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "jail": {
+    "name": "Jail",
+    "color": "darkOrange",
+    "players": []
+  },
+  "stcPla": {
+    "name": "St. Charles Place",
+    "color": "pink",
+    "cost": 140,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 10,
+      "1_house": 50,
+      "2_house": 150,
+      "3_house": 450,
+      "4_house": 625,
+      "5_house": 750
+    },
+    "mortgage": 70,
+    "isMortgaged": false,
+    "unmortgagedCost": 77,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "electricComp": {
+    "name": "Electric Company",
+    "color": "white",
+    "players": []
+  },
+  "staAve": {
+    "name": "States Avenue",
+    "color": "pink",
+    "cost": 140,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 10,
+      "1_house": 50,
+      "2_house": 150,
+      "3_house": 450,
+      "4_house": 625,
+      "5_house": 750
+    },
+    "mortgage": 70,
+    "unmortgageCost": 77,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "virAve": {
+    "name": "Virginia Avenue",
+    "color": "pink",
+    "cost": 160,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 12,
+      "1_house": 60,
+      "2_house": 180,
+      "3_house": 500,
+      "4_house": 700,
+      "5_house": 900
+    },
+    "mortgage": 80,
+    "unmortgageCost": 88,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "pennRR": {
+    "hasImage": true,
+    "name": "Pennsylvania Railroad",
+    "color": "white",
+    "players": []
+  },
+  "stjPla": {
+    "name": "St. James Place",
+    "color": "orange",
+    "cost": 180,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 14,
+      "1_house": 70,
+      "2_house": 200,
+      "3_house": 550,
+      "4_house": 750,
+      "5_house": 950
+    },
+    "mortgage": 90,
+    "unmortgagedCost": 99,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "commChestTwo": {
+    "hasImage": true,
+    "name": "Community Chest",
+    "color": "white",
+    "players": []
+  },
+  "tenAve": {
+    "name": "Tennessee Avenue",
+    "color": "orange",
+    "cost": 180,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 14,
+      "1_house": 70,
+      "2_house": 200,
+      "3_house": 550,
+      "4_house": 750,
+      "5_house": 950
+    },
+    "mortgage": 90,
+    "unmortgagedCost": 99,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "newAve": {
+    "name": "New York Avenue",
+    "color": "orange",
+    "cost": 200,
+    "buildingCost": 100,
+    "rent": {
+      "0_house": 16,
+      "1_house": 80,
+      "2_house": 220,
+      "3_house": 600,
+      "4_house": 800,
+      "5_house": 1000
+    },
+    "mortgage": 100,
+    "unmortgagedCost": 110,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "freePrk": {
+    "name": "Free Parking",
+    "color": "white",
+    "players": []
+  },
+  "kenAve": {
+    "name": "Kentucky Avenue",
+    "color": "red",
+    "cost": 220,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 18,
+      "1_house": 90,
+      "2_house": 250,
+      "3_house": 700,
+      "4_house": 875,
+      "5_house": 1050
+    },
+    "mortgage": 110,
+    "unmortgagedCost": 121,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "chanceTwo": {
+    "hasImage": true,
+    "name": "Chance",
+    "color": "white",
+    "players": []
+  },
+  "indAve": {
+    "name": "Indiana Avenue",
+    "color": "red",
+    "cost": 220,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 18,
+      "1_house": 90,
+      "2_house": 250,
+      "3_house": 700,
+      "4_house": 875,
+      "5_house": 1050
+    },
+    "mortgage": 110,
+    "unmortgagedCost": 121,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "illAve": {
+    "name": "Illinois Avenue",
+    "color": "red",
+    "cost": 240,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 20,
+      "1_house": 100,
+      "2_house": 300,
+      "3_house": 750,
+      "4_house": 925,
+      "5_house": 1100
+    },
+    "mortgage": 120,
+    "unmortgagedCost": 132,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "B&ORR": {
+    "hasImage": true,
+    "name": "B. & O. Railroad",
+    "color": "white",
+    "players": []
+  },
+  "atlAve": {
+    "name": "Atlantic Avenue",
+    "color": "yellow",
+    "cost": 260,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 22,
+      "1_house": 110,
+      "2_house": 330,
+      "3_house": 800,
+      "4_house": 975,
+      "5_house": 1150
+    },
+    "mortgage": 130,
+    "unmortgagedCost": 143,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "venAve": {
+    "name": "Ventnor Avenue",
+    "color": "yellow",
+    "cost": 260,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 22,
+      "1_house": 110,
+      "2_house": 330,
+      "3_house": 800,
+      "4_house": 975,
+      "5_house": 1150
+    },
+    "mortgage": 130,
+    "unmortgagedCost": 143,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "waterWorks": {
+    "name": "Water Works",
+    "color": "white",
+    "players": []
+  },
+  "marGar": {
+    "name": "Marvin Gardens",
+    "color": "yellow",
+    "cost": 280,
+    "buildingCost": 150,
+    "rent": {
+      "0_house": 24,
+      "1_house": 120,
+      "2_house": 360,
+      "3_house": 850,
+      "4_house": 1025,
+      "5_house": 1200
+    },
+    "mortgage": 140,
+    "unmortgagedCost": 154,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "goToJail": {
+    "name": "Go to Jail",
+    "color": "white",
+    "players": []
+  },
+  "pacAve": {
+    "name": "Pacific Avenue",
+    "color": "green",
+    "cost": 300,
+    "buildingCost": 200,
+    "rent": {
+      "0_house": 26,
+      "1_house": 130,
+      "2_house": 390,
+      "3_house": 900,
+      "4_house": 1100,
+      "5_house": 1275
+    },
+    "mortgage": 150,
+    "unmortgagedCost": 165,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "norAve": {
+    "name": "North Carolina Avenue",
+    "color": "green",
+    "cost": 300,
+    "buildingCost": 200,
+    "rent": {
+      "0_house": 26,
+      "1_house": 130,
+      "2_house": 390,
+      "3_house": 900,
+      "4_house": 1100,
+      "5_house": 1275
+    },
+    "mortgage": 150,
+    "unmortgagedCost": 165,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "commChestThree": {
+    "hasImage": true,
+    "name": "Community Chest",
+    "color": "white",
+    "players": []
+  },
+  "penAve": {
+    "name": "Pennsylvania Avenue",
+    "color": "green",
+    "cost": 320,
+    "buildingCost": 200,
+    "rent": {
+      "0_house": 28,
+      "1_house": 150,
+      "2_house": 450,
+      "3_house": 1000,
+      "4_house": 1200,
+      "5_house": 1400
+    },
+    "mortgage": 160,
+    "unmortgagedCost": 176,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "shortLineRR": {
+    "hasImage": true,
+    "name": "Short Line Railroad",
+    "color": "white",
+    "players": []
+  },
+  "chanceThree": {
+    "hasImage": true,
+    "name": "Chance",
+    "color": "white",
+    "players": []
+  },
+  "parPla": {
+    "name": "Park Place",
+    "color": "blue",
+    "cost": 350,
+    "buildingCost": 200,
+    "rent": {
+      "0_house": 35,
+      "1_house": 175,
+      "2_house": 500,
+      "3_house": 1100,
+      "4_house": 1300,
+      "5_house": 1500
+    },
+    "mortgage": 175,
+    "unmortgagedCost": 193,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  },
+  "luxTax": {
+    "hasImage": true,
+    "name": "Luxury Tax",
+    "color:": "white",
+    "players": []
+  },
+  "boaWlk": {
+    "name": "Boardwalk",
+    "color": "blue",
+    "cost": 400,
+    "buildingCost": 200,
+    "rent": {
+      "0_house": 50,
+      "1_house": 200,
+      "2_house": 600,
+      "3_house": 1400,
+      "4_house": 1700,
+      "5_house": 2000
+    },
+    "mortgage": 200,
+    "unmortgagedCost": 220,
+    "isMortgaged": false,
+    "players": [],
+    "houses": 0,
+    "owner": ""
+  }
+}

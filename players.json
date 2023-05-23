@@ -1,0 +1,46 @@
+{
+  "justin": {
+    "color": "aqua",
+    "hasIcon": true,
+    "icon": "https://th.bing.com/th/id/R.af8db519e73eb92d07579b3f97bd4b49?rik=2z9cpr%2fDDkdD9A&pid=ImgRaw&r=0",
+    "money": 1500,
+    "properties": [],
+    "currentSpace": "go",
+    "rollOne": "int",
+    "rollTwo": "int",
+    "transferedMoney": false
+  },
+  "owasimul": {
+    "color": "red",
+    "hasIcon": true,
+    "icon": "https://media.tenor.com/LQkk-rEEPL0AAAAM/woman-eating-twix-fisheye-eat.gif",
+    "money": 1500,
+    "properties": [],
+    "currentSpace": "go",
+    "rollOne": "int",
+    "rollTwo": "int",
+    "transferedMoney": false
+  },
+  "nikita": {
+    "color": "yellow",
+    "hasIcon": true,
+    "icon": "https://en.meming.world/images/en/thumb/b/b6/Is_For_Me%3F.jpg/300px-Is_For_Me%3F.jpg",
+    "money": 1500,
+    "properties": [],
+    "currentSpace": "go",
+    "rollOne": "int",
+    "rollTwo": "int",
+    "transferedMoney": false
+  },
+  "charlie": {
+    "color": "orange",
+    "hasIcon": true,
+    "icon": "https://media1.tenor.com/images/683d30ef9a6632e311b7bfdb82d30da2/tenor.gif?itemid=17500255",
+    "money": 1500,
+    "properties": [],
+    "currentSpace": "go",
+    "rollOne": "int",
+    "rollTwo": "int",
+    "transferedMoney": false
+  }
+}
